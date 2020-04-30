@@ -17,7 +17,7 @@
 <h2>THINGS TO DO</h2>
 <p><ul>
   <li>Create the dataset</li>
-</p>
+</p></ul>
 <hr style="width:50%;text-align:left;margin-left:0">
 
 <h2>CREATING THE DATASET</h2>
