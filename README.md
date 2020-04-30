@@ -16,7 +16,9 @@
 
 <h2>THINGS TO DO</h2>
 <p><ul>
-  <li>Create the dataset</li>
+  <li>Create the dataset.</li>
+  <li>Import the necessary dependencies.</li>'
+  <li>Build the CNN Model.</li>
 </p></ul>
 <hr style="width:50%;text-align:left;margin-left:0">
 
@@ -38,7 +40,22 @@ Get the newly created dataset <a href ="https://bit.ly/3f2NUly">here.</a><br>
 Or exectute the Dataset Creator.ipynb file to create dataset of your own.</p> 
 <hr style="width:50%;text-align:left;margin-left:0">
 
+<h2>DEPENDENCIES</h2>
+<p><ul>
+  <li>Numpy</li>
+  <li>Matplotlib</li>
+  <li>Keras</li>
+  <li>OS</li>
+  <li>Sklearn</li>
+  <li>OpenCV</li>
+  <li>Seaborn</li>
+  <li>Lime</li>
+  <li>Time</li>
+  <li>Pandas</li>
+  <li>Datetime</li>
+</ul></p>
+<hr style="width:50%;text-align:left;margin-left:0">
 
-
-
-<p></p>
+<h2>BUILDING THE MODEL</h2>
+<p>The CNN Model has been hand coded from scratch. This is a 4-layer CNN. The summary of the model is shown below:<br>
+  <img src="https://user-images.githubusercontent.com/35571958/80689714-5a96c780-8aeb-11ea-84e2-2b5626fd2b05.png" alt="model summary"></img>
