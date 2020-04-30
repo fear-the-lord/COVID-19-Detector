@@ -1,3 +1,44 @@
 # COVID-19-Detector
 
-<p>Get the dataset <a href ="https://bit.ly/3f2NUly">here</a></p>
+<h2>PROBLEM STATEMENT</h2>
+<p>Detection of COVID-19 presence from Chest X-ray scans using CNN & Class Activation Maps<p>
+<hr style="width:50%;text-align:left;margin-left:0">
+  
+<h2>OVERVIEW</h2>
+<p>The 2019–20 coronavirus pandemic is an ongoing pandemic of coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS‑CoV‑2). The outbreak was identified in Wuhan, China, on November 17, 2019. The World Health Organization declared the outbreak a Public Health Emergency of International Concern on 30 January, and a pandemic on 11 March. As of 30 April 2020, more than 3.19 million cases of COVID-19 have been reported in 185 countries and territories, resulting in more than 227,000 deaths. More than 972,000 people have recovered.</p>
+
+<p>Recommended preventive measures include hand washing, covering one's mouth when coughing, maintaining distance from other people, wearing a face mask in public settings, and monitoring and self-isolation for people who suspect they are infected. Authorities worldwide have responded by implementing travel restrictions, quarantines, curfews and stay-at-home orders, workplace hazard controls, and facility closures. Many places have also worked to increase testing capacity and trace contacts of infected persons.</p>
+
+<p>So, one thing that is needed to be done in this case is Multiple Testing, so that the actual situation is correctly understood and proper preventive actions are taken. Another important thing is to bring out the test results quickly.</p>
+
+<p>The standard COVID-19 tests are called PCR (Polymerase chain reaction) tests which look for the existence of antibodies of a given infection. But there are a few issues with the test. Pathogenic laboratory testing is the diagnostic gold standard but it is time-consuming with significant false-negative results. However, large scale implementation of the PCR tests are costly and cannot be implemented by some of the developing countries. So, to make things fast and cheap, we can use Deep Learning and Machine Learning concepts.</p>
+<hr style="width:50%;text-align:left;margin-left:0">
+
+<h2>THINGS TO DO</h2>
+<p><ul>
+  <li>Create the dataset</li>
+</p>
+<hr style="width:50%;text-align:left;margin-left:0">
+
+<h2>CREATING THE DATASET</h2>
+<p>The dataset for this project has been generated from 2 major datasets:<br> 
+  1. The <a href= "https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia">Kaggle Datset</a> for Normal/Non-Covid X-Rays.<br> 
+  2. The <a href= "https://github.com/ieee8023/covid-chestxray-dataset">Datset</a> for COVID X-Rays.
+  
+Clone the repository given in the second link. From the image folder we extract random X-Rays of PA(posteroanterior) view and store it in our Dataset/Train Data/Covid/.<br>
+
+Download the Kaggle Dataset and from the Normal image folder extract same no:of normal images and store it in out Dataset/Train Data/Non-Covid/.<br>
+
+The Train Dataset has total of 284 images where there are 142 images each of Covid and Non-Covid.
+
+Do the same for creating Dataset/Test Data/Covid and Dataset/Test Data/Non-Covid but with comparatively lesser no:of images in both. In this project we have considered 60 Non-Covid images and 55 Covid-Images. Hence a total of 115 images in the Test Datset. 
+
+
+Get the newly created dataset <a href ="https://bit.ly/3f2NUly">here.</a><br>
+Or exectute the Dataset Creator.ipynb file to create dataset of your own.</p> 
+<hr style="width:50%;text-align:left;margin-left:0">
+
+
+
+
+<p></p>
