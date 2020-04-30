@@ -19,6 +19,9 @@
   <li>Create the dataset.</li>
   <li>Import the necessary dependencies.</li>'
   <li>Build the CNN Model.</li>
+  <li>Pre-process the images.</li>
+  <li>Train the model.</li>
+  <li>Understanding the results.</li>
 </p></ul>
 <hr style="width:50%;text-align:left;margin-left:0">
 
@@ -60,3 +63,24 @@ Or exectute the Dataset Creator.ipynb file to create dataset of your own.</p>
 <p>The CNN Model has been hand coded from scratch. This is a 4-layer CNN. The summary of the model is shown below:<br>
   <img src="https://user-images.githubusercontent.com/35571958/80689714-5a96c780-8aeb-11ea-84e2-2b5626fd2b05.png" alt="model summary"></img></p>
   <hr style="width:50%;text-align:left;margin-left:0">
+  
+ <h2>UNDERSTANDING THE RESULTS</h2>
+ <p>The confusion matrix of the model is given as:<br>
+  <img src="https://user-images.githubusercontent.com/35571958/80721061-669a7d80-8b1b-11ea-9556-e0f9ee831ca8.png" alt="Confusion Matrix"></img><br>
+  There is scope for improvement of the model accuracy on the validation set.<br>
+  The class activation maps the images are given as:<br>
+  <img src="https://user-images.githubusercontent.com/35571958/80721559-fdffd080-8b1b-11ea-929c-1701a9ca6869.png" alt="Heat Maps"></img>
+  </p><br>
+  <p>We use LIME, to explain the predictions of our classifier. LIME is an algorithm that explains the output of any classifier or regressor in a faithful way, by approximating it locally with an interpretable model. It highlights the super-pixels with positive weight towards a specific class, as it gives the intuition as to why the model would think that class may be present.<br>
+  The results of the LIME algorithm is given below:<br>
+  <img src="https://user-images.githubusercontent.com/35571958/80725138-4caf6980-8b20-11ea-88a8-3163bf91c997.png" alt="Lime Output"></img></p>
+  <hr style="width:50%;text-align:left;margin-left:0">
+ 
+ <h2>REFERENCES</h2>
+<p><ul>
+  <li><a href="https://www.medrxiv.org/content/10.1101/2020.02.14.20023028v5">A deep learning algorithm using CT images to screen for Corona Virus Disease (COVID-19).</a></li>
+  <li><a href="https://arxiv.org/pdf/1602.04938.pdf">Why Should I Trust You? Explaining the Predictions of any Classifier.</a></li>
+ </ul></p>
+ <hr style="width:50%;text-align:left;margin-left:0">
+ 
+  
