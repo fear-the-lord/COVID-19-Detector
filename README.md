@@ -58,4 +58,5 @@ Or exectute the Dataset Creator.ipynb file to create dataset of your own.</p>
 
 <h2>BUILDING THE MODEL</h2>
 <p>The CNN Model has been hand coded from scratch. This is a 4-layer CNN. The summary of the model is shown below:<br>
-  <img src="https://user-images.githubusercontent.com/35571958/80689714-5a96c780-8aeb-11ea-84e2-2b5626fd2b05.png" alt="model summary"></img>
+  <img src="https://user-images.githubusercontent.com/35571958/80689714-5a96c780-8aeb-11ea-84e2-2b5626fd2b05.png" alt="model summary"></img></p>
+  <hr style="width:50%;text-align:left;margin-left:0">
