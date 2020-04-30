@@ -17,7 +17,7 @@
 <h2>THINGS TO DO</h2>
 <p><ul>
   <li>Create the dataset.</li>
-  <li>Import the necessary dependencies.</li>'
+  <li>Import the necessary dependencies.</li>
   <li>Build the CNN Model.</li>
   <li>Pre-process the images.</li>
   <li>Train the model.</li>
@@ -32,7 +32,7 @@
   
 Clone the repository given in the second link. From the image folder we extract random X-Rays of <b>PA(posteroanterior)</b> view and store it in our <b>Dataset/Train Data/Covid/</b>.<br>
 
-Download the Kaggle Dataset and from the Normal image folder extract same no:of normal images and store it in out <b>Dataset/Train Data/Non-Covid/<b>.<br>
+Download the Kaggle Dataset and from the Normal image folder extract same no:of normal images and store it in out <b>Dataset/Train Data/Non-Covid/</b>.<br>
 
 The Train Dataset has total of <b>284 images</b> where there are <b>142 images</b> each of Covid and Non-Covid.
 
