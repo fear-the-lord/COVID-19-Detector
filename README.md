@@ -83,6 +83,6 @@ Or exectute the <b>Dataset Creator.ipynb</b> file to create dataset of your own.
  </ul></p>
  <hr style="width:50%;text-align:left;margin-left:0">
  
- <p>&#169;Contributed by: Souvik Ghosh & Sawon Bhattacharya.</p>
+ <p>&#169;Contributed by: Souvik Ghosh & Sawon Bhattacharya.</p> 
  
   
